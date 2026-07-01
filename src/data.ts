@@ -1,10 +1,11 @@
 import { Project, Service, Testimonial, Experience, ProcessStep, Education } from "./types";
+import avatarPhoto from "../assets/photo.jpg";
 
 export const DEV_INFO = {
   name: "Konan William Koffi",
   title: "Développeur Web, Mobile & Automatisation",
   subtitle: "Expert Full-Stack, Cybersécurité & Automatisation (n8n, CrewAI, Maestro)",
-  avatar: "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=600&h=800&q=80",
+  avatar: avatarPhoto,
   bioShort: "Passionné par les technologies de l'information, je suis développeur web, mobile et expert en automatisation. Je conçois des architectures performantes, des flux de travail automatisés intelligents (n8n, CrewAI) et des solutions sécurisées.",
   bioLong: "Passionné par les technologies de l'information, je suis un développeur web et mobile chevronné, spécialisé dans l'automatisation de processus complexes et le déploiement d'agents d'intelligence artificielle. Fort de mes expériences en start-up (AFRIKLABTECH) et en freelance, je conçois des architectures backend robustes (Laravel, PHP, Symfony), des interfaces frontend haut de gamme (React, Vue.js) et des solutions d'automatisation de pointe avec n8n, CrewAI et Maestro. Mon engagement technique s'accompagne d'une expertise en cybersécurité pour garantir des produits performants, hautement sécurisés et centrés sur l'utilisateur.",
   status: "Disponible pour de nouveaux défis",
